@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+/* font-family: 'Days One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+/* font-family: 'McLaren', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&display=swap');
+/* font-family: 'Bellota Text', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+/* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* min-height: 100vh; */
+    background-color: rgb(212, 214, 216);
+    /* overflow: hidden; */
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: auto;
+   background-color: #143437;
+    box-shadow: 0 0  1px;
+}
+p{
+    font-family: 'McLaren', cursive;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    /* margin-left: -1000px; */
+    margin: 0 50px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+
+}
+.nav .links a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Bellota Text', cursive;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.anant{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 0 0 1pc;
+}
+.poste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+h2{
+    color: black;
+    font-family: 'Bellota Text', cursive;
+    padding: 0 10px;
+}
+.images{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    overflow: hidden;
+}
+.a{
+  width: 98.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
